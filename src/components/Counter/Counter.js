@@ -3,7 +3,7 @@ function Counter() {
   const [counter, setCounter] = useState(1)
   return (
     <div>
-      {counter}
+      <p>{counter}</p>
       <button type='button' onClick={()=>setCounter(counter+1)}>+</button>
     </div>
   )
