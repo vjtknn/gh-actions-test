@@ -4,7 +4,7 @@ function Counter() {
   return (
     <div>
       <p>{counter}</p>
-      <button type='button' onClick={()=>setCounter(counter*1)}>+</button>
+      <button type='button' onClick={()=>setCounter(counter+1)}>+</button>
     </div>
   )
 }
